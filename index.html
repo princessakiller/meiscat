@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Jammin Phonk — Line PRO 5</title>
+  <meta name="theme-color" content="#000000" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <video id="clip" class="bg" autoplay muted playsinline loop>
+    <source src="media/jammin.mp4" type="video/mp4" />
+  </video>
+
+  <audio id="music" preload="auto">
+    <source src="media/music.mp3" type="audio/mpeg" />
+    <source src="media/music.wav" type="audio/wav" />
+  </audio>
+
+  <div id="stack" class="stack"></div>
+
+  <button id="start" class="btn">Нажми, чтобы начать 🔊</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
